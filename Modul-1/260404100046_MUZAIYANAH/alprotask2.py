@@ -13,4 +13,4 @@ tinggi = 12
 
 volume = 1/3 * (22/7) * (jariJari * jariJari) * tinggi
 
-print("Volume kerucut =", volume)
+print("Volume kerucut = ", volume)

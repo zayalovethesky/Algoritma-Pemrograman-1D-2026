@@ -5,7 +5,7 @@ if n < 2 or n > 15:
     exit()    
     
 for baris in range(1, n + 1):
-    cortis = (n - baris) * 2
+    spasi = (n - baris) * 2
     hasil = ""
 
     for angka in range(1, baris + 1):
@@ -13,10 +13,10 @@ for baris in range(1, n + 1):
     for angka in range(baris - 1, 0, -1):
         hasil = hasil + str(angka % 10) + " "
 
-    print(" " * cortis + hasil)
+    print(" " * spasi + hasil)
 
 for baris in range(n - 1, 0, -1):
-    cortis = (n - baris) * 2
+    spasi = (n - baris) * 2
     hasil = ""
 
     for angka in range(1, baris + 1):
@@ -24,7 +24,7 @@ for baris in range(n - 1, 0, -1):
     for angka in range(baris - 1, 0, -1):
         hasil = hasil + str(angka % 10) + " "
 
-    print(" " * cortis + hasil)
+    print(" " * spasi + hasil)
 
 
 
