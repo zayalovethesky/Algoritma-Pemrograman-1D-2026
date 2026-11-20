@@ -24,4 +24,4 @@ else:
     
 print("Daftar anggota yang tersisa:")
 for nama in anggota:
-    print(nama)
+    print(nama) 
